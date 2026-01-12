@@ -67,8 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
             imageModal.style.display = 'block';
             modalImage.src = this.src;
             modalImage.alt = this.alt;
-           // הסרת שורת הכיתוב
-// modalInfo.textContent = this.alt;
             
             // מניעת גלילה מאחורי המודל
             document.body.style.overflow = 'hidden';
