@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Modal להצגת תמונות
     const imageModal = document.getElementById('imageModal');
     const modalImage = document.getElementById('modalImage');
-    const modalInfo = document.getElementById('modalInfo');
     const closeModal = document.querySelector('.close-modal');
     
     document.querySelectorAll('.gallery-item img').forEach(img => {
